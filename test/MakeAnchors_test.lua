@@ -2,7 +2,7 @@ require 'torch'
 require 'cutorch'
 require 'nn'
 
-require 'ReshapeBoxFeatures'
+require 'densecap.modules.ReshapeBoxFeatures'
 
 require 'densecap.modules.ApplyBoxTransform'
 require 'densecap.modules.MakeAnchors'

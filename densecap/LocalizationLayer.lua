@@ -1,18 +1,18 @@
 require 'torch'
 require 'nn'
 
-require 'densecap.modules.OurCrossEntropyCriterion'
-require 'densecap.modules.BilinearRoiPooling'
-require 'densecap.modules.ReshapeBoxFeatures'
-require 'densecap.modules.ApplyBoxTransform'
-require 'densecap.modules.InvertBoxTransform'
-require 'densecap.modules.BoxSamplerHelper'
-require 'densecap.modules.RegularizeLayer'
-require 'densecap.modules.MakeAnchors'
+require 'modules.OurCrossEntropyCriterion'
+require 'modules.BilinearRoiPooling'
+require 'modules.ReshapeBoxFeatures'
+require 'modules.ApplyBoxTransform'
+require 'modules.InvertBoxTransform'
+require 'modules.BoxSamplerHelper'
+require 'modules.RegularizeLayer'
+require 'modules.MakeAnchors'
 
 -- local net_utils = require 'net_utils'
-local box_utils = require 'densecap.box_utils'
-local utils = require 'densecap.utils'
+local box_utils = require 'box_utils'
+local utils = require 'utils'
 
 
 --[[
